@@ -1,7 +1,7 @@
 const cron = require('node-cron');
 let shell = require('shelljs');
  
-setInterval(function(){ alert("Still running"); }, 10000);
+setInterval(function(){ console.log("Still running"); }, 10000);
 
 cron.schedule("00 10 * * *", function() {
     console.log("Scheduler running...");
