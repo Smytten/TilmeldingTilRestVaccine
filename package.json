@@ -1,0 +1,24 @@
+{
+  "name": "tilmeldingtilrestvaccine",
+  "version": "1.0.0",
+  "description": "Tilmelder mig til restvaccinerne 1 gang dagligt før kl 11.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smytten/TilmeldingTilRestVaccine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smytten/TilmeldingTilRestVaccine/issues"
+  },
+  "homepage": "https://github.com/Smytten/TilmeldingTilRestVaccine#readme",
+  "dependencies": {
+    "node": "^16.1.0",
+    "puppeteer": "^9.1.1",
+    "shelljs": "^0.8.4"
+  }
+}
