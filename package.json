@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Smytten/TilmeldingTilRestVaccine#readme",
   "dependencies": {
+    "node": "^16.1.0",
     "puppeteer": "^9.1.1"
   }
 }
